@@ -49,14 +49,14 @@ if (isset($_POST['bkali'])) {
                     <td>Angka 1</td>
                     <td>:</td>
                     <td>
-                        <input type="text" class="form-control form-control-user" style="width: 300px; margin-bottom: 5px;" name="tangka1" value="<?= $angka1 ?>">
+                        <input type="text" class="form-control form-control-user" style="width: 300px; margin-bottom: 5px;" name="tangka1" value="<?= $angka1 ?>" autocomplete="off">
                     </td>
                 </tr>
                 <tr>
                     <td>Angka 2</td>
                     <td>:</td>
                     <td>
-                        <input type="text" class="form-control form-control-user" style="width: 300px; margin-bottom: 5px;" name="tangka2" value="<?= $angka2 ?>">
+                        <input type="text" class="form-control form-control-user" style="width: 300px; margin-bottom: 5px;" name="tangka2" value="<?= $angka2 ?>" autocomplete="off">
                     </td>
                 </tr>
                 <tr>
@@ -74,7 +74,7 @@ if (isset($_POST['bkali'])) {
                     <td>Hasil</td>
                     <td>:</td>
                     <td>
-                        <input type="text" class="form-control form-control-user" style="width: 300px; margin-top: 5px;"" name=" thasil" value="<?= $hasil ?>">
+                        <input type="text" class="form-control form-control-user" style="width: 300px; margin-top: 5px;"" name=" thasil" value="<?= $hasil ?>" autocomplete="off">
                     </td>
                 </tr>
             </table>
